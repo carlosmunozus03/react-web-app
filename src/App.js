@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from "./components/MyComponent";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
 
                 {/*play with this*/}
                 <p>This is my first React App</p>
-                <h6> {'Hello World with React'}</h6>
+                <h6> {'Hello World from React'}</h6>
                 {greeting}
 
                 <a
@@ -28,6 +29,10 @@ function App() {
                     Learn React
                 </a>
             </header>
+            <section className='components'>
+                <MyComponent/>
+            </section>
+
         </div>
     );
 }
