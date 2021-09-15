@@ -1,6 +1,6 @@
 import React from "react";
 
-class MyComponent extends React.Component {
+class MyFirstComponent extends React.Component {
     render() {
         let pizza = {
             name: 'Pizza',
@@ -23,4 +23,4 @@ class MyComponent extends React.Component {
 
 }
 
-export default MyComponent;
+export default MyFirstComponent;
