@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from "./components/MyComponent";
+import MyFirstComponent from "./components/My-First-Component";
+import TableClassComponent from "./components/Table-Class-Component";
+import TableSimpleComponent from "./components/Table-Simple-Component";
 
 function App() {
-
     let name = 'Carlos';
     let greeting = <h2>Hello, my name is {name}</h2>
 
@@ -15,7 +16,6 @@ function App() {
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
 
-                {/*play with this*/}
                 <p>This is my first React App</p>
                 <h6> {'Hello World from React'}</h6>
                 {greeting}
@@ -29,10 +29,14 @@ function App() {
                     Learn React
                 </a>
             </header>
-            <section className='components'>
-                <MyComponent/>
+            <section className="container">
+                <MyFirstComponent/>
+                <TableClassComponent/>
             </section>
-
+            <br/>
+            <div>
+                <TableSimpleComponent/>
+            </div>
         </div>
     );
 }
